@@ -32,7 +32,7 @@ static struct sapphire_rapids_6a_offsets msrs =
     .ia32_perf_global_ctrl        = 0x38F,
     .ia32_mperf                   = 0xE7,
     .ia32_aperf                   = 0xE8,
-    
+
 };
 
 int intel_cpu_fm_06_8f_cap_power_limits(int package_power_limit)
